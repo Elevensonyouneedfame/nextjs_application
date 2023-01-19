@@ -53,48 +53,9 @@ const Navbar = () => {
             <div className={classOne} id="navbarSupportedContent">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <Link href="#">
-                    <a className="dropdown-toggle nav-link">
-                      Home
-                    </a>
+                  <Link href="/" activeClassName="active">
+                    <a className="nav-link">Home</a>
                   </Link>
-                  <ul className="dropdown-menu">
-                    <li className="nav-item">
-                      <Link href="/" activeClassName="active">
-                        <a className="nav-link">Technology Solutions</a>
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link href="/index-2" activeClassName="active">
-                        <a className="nav-link">Digital Marketing</a>
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link href="/index-3" activeClassName="active">
-                        <a className="nav-link">Business Consulting</a>
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link href="/index-4" activeClassName="active">
-                        <a className="nav-link">Cybersecurity Services</a>
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link href="/index-5" activeClassName="active">
-                        <a className="nav-link">Crypto Startup</a>
-                      </Link>
-                    </li>
-
-                    <li className="nav-item">
-                      <Link href="/index-6" activeClassName="active">
-                        <a className="nav-link">ICO Landing</a>
-                      </Link>
-                    </li>
-                  </ul>
                 </li>
 
                 <li className="nav-item">
